@@ -3,7 +3,7 @@ import {router} from 'expo-router'
 
 export default function Index() {
   function signUp() {
-    router.navigate('/sign-up')
+    router.replace('/sign-up')
   }
 
   return (
