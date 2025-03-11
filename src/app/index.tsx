@@ -12,7 +12,7 @@ export default function Index() {
         <Text style={styles.label}>Criar conta</Text>
       </TouchableOpacity>
 
-      <Link href={{pathname: '/sign-up', params: {id: 7, name: 'Tiago'}}}>
+      <Link href='/product/1001'>
         Enviar parâmetro
       </Link>
     </View>
